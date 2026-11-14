@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>MxUtilities.Scripting</PackageId>
+    <Description>Discovers running Autodesk 3ds Max instances and sends MAXScript commands to them on Windows.</Description>
+    <PackageTags>3dsmax;autodesk;max;maxscript;scripting</PackageTags>
+    <PackageIcon>icon.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="icon.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>

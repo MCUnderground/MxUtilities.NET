@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AssetManagment\MxUtilities.AssetManagement.csproj" />
+    <ProjectReference Include="..\MxUtilities.FileHandling\MxUtilities.FileHandling.csproj" />
+    <ProjectReference Include="..\MxUtilities.Scripting\MxUtilities.Scripting.csproj" />
+  </ItemGroup>
+
+</Project>

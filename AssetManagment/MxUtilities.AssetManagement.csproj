@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>MxUtilities.AssetManagement</PackageId>
+    <Description>Reads and rewrites the external asset list stored in Autodesk 3ds Max (.max) files, for example to repath textures offline.</Description>
+    <PackageTags>3dsmax;autodesk;max;assets;repath</PackageTags>
+    <PackageIcon>icon.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="icon.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MxUtilities.FileHandling\MxUtilities.FileHandling.csproj" />
+  </ItemGroup>
+
+</Project>
