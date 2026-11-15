@@ -4,9 +4,9 @@
 
 | Package | Contents |
 | --- | --- |
-| `MxUtilities.FileHandling` | Access to the OLE streams stored inside `.max` files and the render settings they contain. |
-| `MxUtilities.AssetManagement` | Reading and rewriting the asset list (textures, xrefs, render outputs, ...) stored in a `.max` file. Depends on `MxUtilities.FileHandling`. |
-| `MxUtilities.Scripting` | Discovery of running 3ds Max instances, sending MAXScript to them and monitoring instance start/exit/title changes. |
+| [`MxUtilities.FileHandling`](https://www.nuget.org/packages/MxUtilities.FileHandling) | Access to the OLE streams stored inside `.max` files and the render settings they contain. |
+| [`MxUtilities.AssetManagement`](https://www.nuget.org/packages/MxUtilities.AssetManagement) | Reading and rewriting the asset list (textures, xrefs, render outputs, ...) stored in a `.max` file. Depends on `MxUtilities.FileHandling`. |
+| [`MxUtilities.Scripting`](https://www.nuget.org/packages/MxUtilities.Scripting) | Discovery of running 3ds Max instances, sending MAXScript to them and monitoring instance start/exit/title changes. |
 
 All packages target `net8.0`. `MxUtilities.Scripting` is Windows-only because it uses Win32 window APIs; the other two are platform independent.
 
